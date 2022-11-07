@@ -1,14 +1,16 @@
-package com.example.all_in_one;
+package com.example.all_in_one.Alarm;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Notes_Activity extends AppCompatActivity {
+import com.example.all_in_one.R;
+
+public class AlarmActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notes);
+        setContentView(R.layout.activity_alarm);
     }
 }

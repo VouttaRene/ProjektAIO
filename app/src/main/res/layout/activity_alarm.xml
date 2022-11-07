@@ -4,27 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Notes.Notes_Activity">
+    tools:context=".Alarm.AlarmActivity">
 
-
-
-    <!--
-    <AnalogClock
+    <DigitalClock
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< Updated upstream
-        android:text="TextView"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="245dp" />
-=======
         android:textSize="40dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:dial="@drawable/clockface"
-    -->
         />
-
->>>>>>> Stashed changes
 </androidx.constraintlayout.widget.ConstraintLayout>
